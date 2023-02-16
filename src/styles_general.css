@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*colors used in layout*/
+:root {
+    --black: #1F2022;
+    --red: #FF0000;
+    --dark-grey: #898989;
+    --grey: #C2C2C2;
+    --light-grey: #EBEBEB;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    margin-top: 114px;
+    overflow-x: hidden;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+li{
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 70px 0 32px;
+    width: 100%;
+}
+
+.header {
+    top: 0;
+    right: 0;
+    display: flex;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--white);
+    z-index: 5;
+}
+
+/*menu + logo*/
+.start {
+    width: 164px;
+    margin-right: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: var(--black);
+}
+
+.logo {
+    height: 25px;
+    cursor: pointer;
+}
+
+/*search input section*/
+.center {
+    display: flex;
+    width: 830px;
+    height: 44px;
+    border-radius: 22px;
+    padding-right: 18px;
+    overflow: hidden;
+    background-color: var(--light-grey);
+}
+
+.search-input {
+    width: 100%;
+    padding: 0 23px;
+    border: none;
+    outline: none;
+    background-color: var(--light-grey);
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-button {
+    width: 18px;
+}
+
+/*account menu section*/
+.end {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.notification{
+    position: relative;
+}
+
+.notification-number {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.round-photo {
+    overflow: hidden;
+    display: flex;
+}
+
+.round-photo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.my-account img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.main-page {
+    display: flex;
+}
+
+.sidebar {
+    margin: 0 59px 40px 0;
+}
+
+.navigation , .subscriptions {
+    width: 164px;
+}
+
+.sidebar-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark-grey);
+}
+
+.navigation {
+    margin-bottom: 58px;
+}
+
+.navigation li:not(:last-child) {
+    margin-bottom: 29px;
+}
+
+.nav-link, .nav-button, .account-link, .settings{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link img , .nav-button img , .settings img{
+    margin-right: 13px;
+}
+
+.active {
+    color: var(--red);
+}
+
+.subscriptions h3{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.subscriptions li:not(:last-child) {
+    margin-bottom: 23px;
+}
+
+.account-link img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.settings {
+    margin-top: 104px;
+}
+
+.settings .sidebar-text {
+    color: var(--grey);
+}
+
+.subscribe-button {
+    width: 154px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
