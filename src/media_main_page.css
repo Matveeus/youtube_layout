@@ -1,0 +1,88 @@
+@media (max-width: 1450px) {
+    .carousel-buttons {
+        margin-right: unset;
+    }
+}
+
+@media (max-width: 1064px) {
+    .carousel-buttons, .channel-carousel-buttons {
+        margin-right: unset;
+    }
+
+    .video:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .channel-recommendation {
+        display: none;
+    }
+
+    .channel-carousel-buttons .subscribe-button {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .main-page-content {
+        margin-bottom: 80px;
+    }
+
+    .recommended-videos-carousel {
+        height: 280px;
+    }
+
+    .recommended-video {
+        width: 250px;
+    }
+
+    .recommended-video-cover {
+        height: 150px;
+    }
+
+    .subscribe-button {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        margin-top: 60px;
+    }
+
+    .carousel-inner {
+        flex-direction: column;
+    }
+
+    .suggested-account-carousel, .recommended-channel-carousel {
+        height: 39%;
+    }
+
+    .recommended-videos-carousel {
+        height: 20%;
+    }
+
+    .carousel-buttons {
+        display: none;
+    }
+
+    .carousel-inner {
+        position: inherit;
+    }
+
+    .video:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .suggested-video, .recommended-video, .recommended-channel-video {
+        width: 100%;
+    }
+
+    .suggested-video-cover, .recommended-video-cover, .recommended-channel-video-cover {
+        height: 50vw;
+    }
+
+    .carousel-account-link p {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,176 @@
+.logo {
+    background: url("../assets/youtube_logo.svg") center center no-repeat;
+    background-size: cover;
+    width: 116px;
+    height: 25px;
+}
+
+.channel-page-content {
+    width: 100%;
+}
+
+.channel-cover-image {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.channel-cover-image img {
+    width: 100%;
+}
+
+.account-header {
+    display: flex;
+    margin-top: 30px;
+}
+
+.account-header .round-photo img {
+    width: 80px;
+    height: 80px;
+}
+
+.general-channel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14px;
+}
+
+.account-name {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.subscribed {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.account-action-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.account-action-buttons .notification {
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
+.channel-recommended {
+    display: flex;
+    align-items: center;
+}
+
+.channel-nav-pinned-video {
+    margin-top: 9px;
+}
+
+.channel-nav {
+    display: flex;
+}
+
+.channel-nav button:not(:last-child) {
+    margin-right: 69px;
+    font-size: 18px;
+}
+
+.active-button {
+    color: var(--red);
+    border-bottom: 2px solid var(--red);
+    padding-bottom: 3px;
+}
+
+.pinned-video {
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.pinned-video-cover {
+    display: flex;
+    align-items: center;
+    width: 540px;
+    height: 250px;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pinned-video-cover img {
+    width: 100%;
+}
+
+.pinned-video-info {
+    width: 548px;
+    margin-left: 32px;
+}
+
+.pinned-video-info span {
+    font-size: 16px;
+}
+
+.pinned-video-name {
+    font-size: 26px;
+    font-weight: 700;
+    max-width: 431px;
+}
+
+.pinned-video-description {
+    margin: 10px 0 30px 0;
+}
+
+.recommended-channels {
+    margin-left: auto;
+    margin-right: 82px;
+}
+
+.recommended-channels h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+    margin-bottom: 30px;
+}
+
+.recommended-channels ul li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.recommended-channels .account-link img {
+    width: 50px;
+    height: 50px;
+}
+
+.recommended-channels .account-link p {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.account-videos-carousel {
+    margin: 61px 0 30px 0;
+}
+
+.account-video {
+    width: 250px;
+    cursor: pointer;
+}
+
+.account-video-cover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.account-video-cover img {
+    width: 100%;
+}
+

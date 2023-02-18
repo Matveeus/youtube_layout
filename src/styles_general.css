@@ -27,8 +27,8 @@ button {
     cursor: pointer;
 }
 
-li{
-  list-style: none;
+li {
+    list-style: none;
 }
 
 a {
@@ -41,6 +41,7 @@ a {
 }
 
 .header {
+    height: 84px;
     top: 0;
     right: 0;
     display: flex;
@@ -53,7 +54,7 @@ a {
 
 /*menu + logo*/
 .start {
-    width: 164px;
+    min-width: 164px;
     margin-right: 59px;
     display: flex;
     justify-content: space-between;
@@ -85,8 +86,8 @@ a {
 /*search input section*/
 .center {
     display: flex;
-    width: 830px;
-    height: 44px;
+    max-width: 830px;
+    width: 100%;
     border-radius: 22px;
     padding-right: 18px;
     overflow: hidden;
@@ -111,12 +112,13 @@ a {
 /*account menu section*/
 .end {
     width: 260px;
+    min-width: 170px;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
 }
 
-.notification{
+.notification {
     position: relative;
 }
 
@@ -139,19 +141,19 @@ a {
     display: flex;
 }
 
-.round-photo img{
+.round-photo img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .my-account img {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
 }
 
-.main-page {
+.page {
     display: flex;
 }
 
@@ -159,8 +161,8 @@ a {
     margin: 0 59px 40px 0;
 }
 
-.navigation , .subscriptions {
-    width: 164px;
+.navigation, .subscriptions {
+    min-width: 164px;
 }
 
 .sidebar-text {
@@ -177,12 +179,12 @@ a {
     margin-bottom: 29px;
 }
 
-.nav-link, .nav-button, .account-link, .settings{
+.nav-link, .nav-button, .account-link, .settings {
     display: flex;
     align-items: center;
 }
 
-.nav-link img , .nav-button img , .settings img{
+.nav-link img, .nav-button img, .settings img {
     margin-right: 13px;
 }
 
@@ -190,7 +192,7 @@ a {
     color: var(--red);
 }
 
-.subscriptions h3{
+.subscriptions h3 {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 30px;
@@ -203,7 +205,6 @@ a {
 .account-link img {
     width: 26px;
     height: 26px;
-    border-radius: 50%;
     margin-right: 10px;
 }
 
@@ -223,6 +224,95 @@ a {
     color: var(--white);
     font-weight: 400;
     font-size: 16px;
+}
+
+.carousel-long {
+    height: 280px;
+}
+
+.carousel-inner {
+    width: auto;
+    display: flex;
+    position: absolute;
+}
+
+.carousel-upper-part {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.carousel-account-link {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.carousel-account-link img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.carousel-account-link p {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--black);
+}
+
+.carousel-buttons {
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 39px;
+    margin-left: auto;
+}
+
+.video:not(:last-child) {
+    margin-right: 40px;
+}
+
+.video-duration {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--white);
+    border-radius: 12px;
+    width: 47px;
+    height: 24px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.video-name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    color: var(--black);
+}
+
+.video-data {
+    display: flex;
+}
+
+.video-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.video-views, .video-upload-data, .video-author {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--grey);
+}
+
+.video-upload-data:before {
+    content: "•";
+    margin: 0 6px;
 }
 
 

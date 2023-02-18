@@ -1,0 +1,172 @@
+@media (max-width: 1450px) {
+    .container {
+        padding: 0 2%;
+    }
+
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .end {
+        margin-left: 0;
+    }
+
+    .center {
+        margin-right: 59px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .start, .navigation, .subscriptions {
+        min-width: 145px;
+    }
+}
+
+@media (max-width: 769px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .start, .center {
+        margin-right: 20px;
+    }
+
+    .start {
+        min-width: auto;
+    }
+
+    .end {
+        min-width: unset;
+        width: auto;
+    }
+
+    .sidebar {
+        position: absolute;
+        left: -200px;
+    }
+
+    .navigation {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid var(--grey);
+        margin-bottom: 0;
+        min-width: auto;
+        width: 100%;
+        padding: 0 2%;
+        background-color: var(--white);
+        z-index: 2;
+    }
+
+    .navigation li:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 61px;
+    }
+
+    .display-none {
+        /*sorry for that...*/
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .header {
+        height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .start, .center {
+        margin-right: unset;
+        min-width: auto;
+        max-width: unset;
+    }
+
+    .center {
+        width: auto;
+        background: none;
+        padding-right: 0;
+        margin-left: auto;
+        border-radius: 0;
+    }
+
+    .small-logo {
+        background: url("../assets/youtube_logo_small.svg") center center no-repeat;
+        background-size: cover;
+        width: 37px;
+        height: 25px;
+        position: relative;
+    }
+
+    .small-logo::after {
+        position: absolute;
+        content: "Margaret Phelps";
+        top: 2px;
+        left: 40px;
+        width: 130px;
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        overflow: hidden;
+    }
+
+    .kebab-menu {
+        position: relative;
+    }
+
+    .kebab-menu::after {
+        display: flex;
+        align-items: center;
+        content: url("../assets/svg_icons/kebab-menu.svg");
+        margin-left: 45px;
+        margin-right: 4px;
+        cursor: pointer;
+    }
+
+    .account-photo {
+        display: none;
+    }
+
+    .search-input {
+        display: none;
+    }
+
+    .my-account {
+        margin-left: 25px;
+    }
+
+    .my-account img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navigation {
+        padding: 0 16px;
+    }
+
+    .nav-link {
+        flex-direction: column;
+    }
+
+    .nav-link img {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .sidebar-text {
+        font-size: 10px;
+    }
+
+}
