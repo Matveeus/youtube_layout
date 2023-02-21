@@ -15,6 +15,10 @@
     .center {
         margin-right: 59px;
     }
+
+    .carousel-buttons {
+        margin-right: unset;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -77,6 +81,10 @@
 }
 
 @media (max-width: 500px) {
+    body {
+        margin-top: 60px;
+    }
+
 
     .container {
         padding: 0 16px;
@@ -169,4 +177,20 @@
         font-size: 10px;
     }
 
+    .carousel-buttons {
+        display: none;
+    }
+
+    .carousel-inner {
+        flex-direction: column;
+    }
+
+    .video:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .video {
+        width: 100%;
+    }
 }

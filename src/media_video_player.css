@@ -1,0 +1,230 @@
+@media (max-width: 1900px) {
+    .video-cover {
+        height: 37vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .video-player-page-content {
+        margin: 0;
+    }
+
+    .play-next-carousel {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .next-video-cover {
+        height: 150px;
+    }
+
+    .next-video-name {
+        font-size: 16px;
+    }
+
+    .next-video-views, .next-video-author {
+        font-size: 13px;
+    }
+
+    .player-video-name {
+        font-size: 20px;
+    }
+
+    .views-number {
+        font-size: 14px;
+    }
+
+    .video-description {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 900px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .play-next-carousel {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .video-cover {
+        height: 50vw;
+        position: absolute;
+        top: 84px;
+        left: 0;
+        border-radius: 0;
+    }
+
+    .next-video-cover {
+        height: 50vw;
+    }
+
+    .video-player-page-content {
+        margin-top: 50vw;
+    }
+}
+
+@media (max-width: 769px) {
+    .video-section {
+        width: 100%;
+    }
+
+    .video-description, .more-video-related {
+        display: none;
+    }
+
+    .player-video-name {
+        margin-top: 5px;
+    }
+
+    .video-action-buttons {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .action-buttons {
+        margin-top: 20px;
+    }
+
+    .video-related {
+        align-items: center;
+    }
+
+    .video-related .channel-photo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .video-channel-section {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--light-grey);
+    }
+
+    .video-channel-section .subscribe-button {
+        background-color: unset;
+        width: auto;
+        height: auto;
+        color: var(--red);
+    }
+
+    .play-next-carousel {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .video-player-inner {
+        grid-template-columns: 12px 20px 70% 25px 12px;
+        display: grid;
+        position: absolute;
+        width: 97%;
+        padding: 0 18px;
+        left: 0;
+        right: 0;
+        bottom: 8px;
+        height: 30px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .play-video-button {
+        width: 12px;
+        height: 12px;
+        position: unset;
+        display: grid;
+        order: 1;
+    }
+
+    .volume-button {
+        width: 12px;
+        height: 12px;
+        left: unset;
+        position: unset;
+        display: grid;
+        order: 5;
+    }
+
+    .video-player-inner button, .video-player-inner input {
+        position: unset;
+    }
+
+    .video-duration-watched, .video-duration-full-time {
+        font-size: 10px;
+        position: unset;
+    }
+
+    .video-duration-watched {
+        display: grid;
+        order: 2;
+    }
+
+    .video-duration-full-time {
+        display: grid;
+        order: 4;
+    }
+
+    .video-progress-bar {
+        width: 100%;
+        height: 5px;
+        padding-right: unset;
+        position: unset;
+        display: grid;
+        order: 3;
+    }
+
+    .next-video-button, .volume-slider, .video-subtitles-button, .video-settings-button, .wide-screen-button, .full-screen-button {
+        display: none;
+    }
+
+    .channel-name {
+        font-size: 16px;
+    }
+
+    .video-channel-section .subscribe-button, .published-date {
+        font-size: 0;
+    }
+
+    .video-channel-section .subscribe-button::before {
+        content: 'Subscribe';
+        font-size: 16px;
+    }
+
+    .published-date::before {
+        content: '245K subscribed';
+        font-size: 12px;
+    }
+
+    .next-video-section-header h3 {
+        font-size: 20px;
+    }
+
+    .toggle-autoplay label {
+        width: 30px;
+        height: 19px;
+    }
+
+    .toggle-autoplay label:after {
+        width: 16px;
+        height: 16px;
+    }
+
+    .toggle-autoplay p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video-cover {
+        top: 50px;
+    }
+
+    .video-player-inner {
+        grid-template-columns: 12px 20px 62% 25px 12px;
+    }
+}

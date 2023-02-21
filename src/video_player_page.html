@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width" name="viewport">
+    <title>Youtube - Dude You Re Getting A Telescope</title>
+    <link href="styles_general.css" rel="stylesheet">
+    <link href="styles_video_player.css" rel="stylesheet">
+    <link href="media_general.css" rel="stylesheet">
+    <link href="media_video_player.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header container">
+    <section class="start">
+        <button class="hamburger-menu display-none">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+        <div class="logo">
+            <a href="#">
+                <img src="../assets/youtube_logo.svg" alt="youtube logo">
+            </a>
+        </div>
+    </section>
+    <section class="search-video center kebab-menu">
+        <input class="search-input" placeholder="Search">
+        <button>
+            <img class="search-button" src="../assets/svg_icons/search.svg" alt="search video on youtube">
+        </button>
+    </section>
+    <section class="account-relative-buttons end">
+        <button class="account-button create-video display-none">
+            <a href="#">
+                <img src="../assets/svg_icons/create-video.svg" alt="create new video on youtube">
+            </a>
+        </button>
+        <button class="account-button display-none">
+            <a href="#">
+                <img src="../assets/svg_icons/grid_button.svg" alt="">
+            </a>
+        </button>
+        <button class="account-button">
+            <a href="#">
+                <div class="notification display-none">
+                    <img class="notification-button" src="../assets/svg_icons/notifications.svg"
+                         alt="check your notifications">
+                    <span class="notification-number">3</span>
+                </div>
+            </a>
+        </button>
+        <button class="my-account account-photo">
+            <a href="#">
+                <div class="round-photo">
+                    <img src="../assets/img_account-photos/my-account-photo.png" alt="photo of your account">
+                </div>
+            </a>
+        </button>
+    </section>
+</header>
+<main class="page container">
+    <section class="sidebar">
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/home.svg" alt="Youtube home page">
+                        <p class="sidebar-text active">Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/trending.svg" alt="Youtube trending page">
+                        <p class="sidebar-text">Trending</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/subscriptions.svg" alt="Youtube subscriptions page">
+                        <p class="sidebar-text">Subscriptions</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/library.svg" alt="Youtube library page">
+                        <p class="sidebar-text">Library</p>
+                    </a>
+                </li>
+                <li class="display-none">
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/history.svg" alt="Youtube history page">
+                        <p class="sidebar-text">History</p>
+                    </a>
+                </li>
+                <li class="display-none">
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/watch-later.svg" alt="Youtube watch later page">
+                        <p class="sidebar-text">Watch later</p>
+                    </a>
+                </li>
+                <li class="display-none">
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/favourites.svg" alt="Youtube favourites page">
+                        <p class="sidebar-text">Favourites</p>
+                    </a>
+                </li>
+                <li class="display-none">
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/liked.svg" alt="Youtube liked videos page">
+                        <p class="sidebar-text">Liked videos</p>
+                    </a>
+                </li>
+                <li class="display-none">
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/music.svg" alt="Youtube music page">
+                        <p class="sidebar-text">Music</p>
+                    </a>
+                </li>
+                <li class="display-none">
+                    <a class="nav-link" href="#">
+                        <img src="../assets/svg_icons/games.svg" alt="Youtube games page">
+                        <p class="sidebar-text">Games</p>
+                    </a>
+                </li>
+                <li class="display-none">
+                    <button class="nav-button">
+                        <img src="../assets/svg_icons/dropdown-arrow.svg" alt="More from navigation">
+                        <p class="sidebar-text">Show more</p>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <div class="subscriptions">
+            <h3>Subscriptions</h3>
+            <ul>
+                <li>
+                    <a class="account-link" href="#">
+                        <div class="round-photo">
+                            <img src="../assets/img_account-photos/Gussie-Singleton.png" alt="Gussie Singleton">
+                        </div>
+                        <p class="sidebar-text">Gussie Singleton</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="account-link" href="#">
+                        <div class="round-photo">
+                            <img src="../assets/img_account-photos/Nora-Francis.png" alt="Nora Francis">
+                        </div>
+                        <p class="sidebar-text">Nora Francis</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="account-link" href="#">
+                        <div class="round-photo">
+                            <img src="../assets/img_account-photos/Belle-Briggs.png" alt="Belle Briggs">
+                        </div>
+                        <p class="sidebar-text">Belle Briggs</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="account-link" href="#">
+                        <div class="round-photo">
+                            <img src="../assets/img_account-photos/Eunice-Cortez.png" alt="Eunice Cortez">
+                        </div>
+                        <p class="sidebar-text">Eunice Cortez</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="account-link" href="#">
+                        <div class="round-photo">
+                            <img src="../assets/img_account-photos/Emma-Hanson.png" alt="Emma Hanson">
+                        </div>
+                        <p class="sidebar-text">Emma Hanson</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="account-link" href="#">
+                        <div class="round-photo">
+                            <img src="../assets/img_account-photos/Leah-Berry.png" alt="Leah Berry">
+                        </div>
+                        <p class="sidebar-text">Leah Berry</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="settings">
+            <img src="../assets/svg_icons/settings.svg" alt="Setting">
+            <p class="sidebar-text">Setting</p>
+        </div>
+    </section>
+    <section class="video-player-page-content">
+        <div class="video-section">
+            <div class="video-cover">
+                <img src="../assets/img_video-covers/Radio-Astronomy-leaf.png" alt="Dude You Re Getting A Telescope">
+                <div class="video-player-inner">
+                    <span class="video-duration-watched">1:34</span>
+                    <span class="video-duration-full-time">19:00</span>
+                    <progress class="video-progress-bar" max="100" value="20"></progress>
+                    <button class="play-video-button"></button>
+                    <button class="next-video-button"></button>
+                    <button class="volume-button"></button>
+                    <input class="volume-slider" type="range" min="0" max="1" step="0.1" value="0.3">
+                    <button class="video-subtitles-button"></button>
+                    <button class="video-settings-button"></button>
+                    <button class="wide-screen-button"></button>
+                    <button class="full-screen-button"></button>
+                </div>
+            </div>
+            <h2 class="player-video-name">Dude You Re Getting A Telescope</h2>
+            <div class="video-action-buttons">
+                <h4 class="views-number">123k views</h4>
+                <div class="action-buttons">
+                    <button class="like-button">
+                        <img src="../assets/svg_icons/like-video.svg">
+                        <p>123K</p>
+                    </button>
+                    <button class="dislike-button">
+                        <img src="../assets/svg_icons/dislike-video.svg">
+                        <p>425K</p>
+                    </button>
+                    <button class="share-button">
+                        <img src="../assets/svg_icons/share-video.svg">
+                        <p>Share</p>
+                    </button>
+                    <button class="more-button">
+                        <img src="../assets/svg_icons/more-button.svg">
+                    </button>
+                </div>
+            </div>
+            <div class="video-channel-section">
+                <div class="video-related">
+                    <div class="round-photo">
+                        <img class="channel-photo" src="../assets/img_account-photos/Food-n-Drink.png">
+                    </div>
+                    <div class="video-related-info">
+                        <h2 class="channel-name">Food & Drink</h2>
+                        <p class="published-date">Published on 14 Jun 2019</p>
+                        <p class="video-description">A successful marketing plan relies heavily on the pulling-power of
+                            advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to,
+                            entice, and convince consumers to take action. There is no magic formula to write perfect ad
+                            copy; it is based on a number of factors, including ad placement, demographic, even the
+                            consumer’s mood when they see your ad. </p>
+                        <button class="more-video-related">Show more</button>
+                    </div>
+                </div>
+                <button class="subscribe-button">Subscribe 2.3m</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="play-next-carousel">
+            <div class="next-video-section-header">
+                <h3>Next</h3>
+                <div class="toggle-autoplay">
+                    <p>AUTOPLAY</p>
+                    <input type="checkbox" id="toggle"/>
+                    <label for="toggle">
+                </div>
+            </div>
+            <div class="next-video">
+                <div class="next-video-cover">
+                    <img src="../assets/img_video-covers/Astronomy-Or-Astrology.png" alt="Baby Monitor Technology">
+                    <span class="video-duration">8:00</span>
+                </div>
+                <h3 class="next-video-name">Baby Monitor Technology</h3>
+                <div class="video-info">
+                    <div class="video-data">
+                        <span class="next-video-views">123k views</span>
+                    </div>
+                    <span class="next-video-author">Dollie Blair</span>
+                </div>
+            </div>
+            <div class="next-video">
+                <div class="next-video-cover">
+                    <img src="../assets/img_video-covers/Advertising-Outdoors.jpg" alt="A Good Autoresponder">
+                    <span class="video-duration">8:00</span>
+                </div>
+                <h3 class="next-video-name">A Good Autoresponder</h3>
+                <div class="video-info">
+                    <div class="video-data">
+                        <span class="next-video-views">123k views</span>
+                    </div>
+                    <span class="next-video-author">Dollie Blair</span>
+                </div>
+            </div>
+            <div class="next-video">
+                <div class="next-video-cover">
+                    <img src="../assets/img_video-covers/Baby-Monitor-Technology-ananas.png"
+                         alt="Selecting The Right Hotel">
+                    <span class="video-duration">8:00</span>
+                </div>
+                <h3 class="next-video-name">Selecting The Right Hotel</h3>
+                <div class="video-info">
+                    <div class="video-data">
+                        <span class="next-video-views">123k views</span>
+                    </div>
+                    <span class="next-video-author">Dollie Blair</span>
+                </div>
+            </div>
+            <div class="next-video">
+                <div class="next-video-cover">
+                    <img src="../assets/img_video-covers/A-Good-Autoresponder.png" alt="Selecting The Right Hotel">
+                    <span class="video-duration">8:00</span>
+                </div>
+                <h3 class="next-video-name">Selecting The Right Hotel</h3>
+                <div class="video-info">
+                    <div class="video-data">
+                        <span class="next-video-views">123k views</span>
+                    </div>
+                    <span class="next-video-author">Dollie Blair</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

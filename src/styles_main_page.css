@@ -1,3 +1,7 @@
+body {
+    margin-top: 114px;
+}
+
 .main-page-content {
     width: 100%;
     margin-bottom: 64px;
@@ -25,8 +29,6 @@
 .suggested-video-cover img, .recommended-video-cover img, .recommended-channel-video-cover img {
     width: 100%;
 }
-
-
 
 .recommended-videos-carousel {
     height: 363px;
@@ -58,7 +60,6 @@
 .channel-carousel-buttons {
     display: flex;
     align-items: center;
-    margin-right: 39px;
     margin-left: auto;
 }
 

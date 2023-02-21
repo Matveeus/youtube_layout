@@ -1,0 +1,344 @@
+body {
+    margin-top: 94px;
+}
+
+.page {
+    justify-content: space-between;
+}
+
+.sidebar {
+    position: absolute;
+    left: -200px;
+}
+
+.video-player-page-content {
+    display: flex;
+    margin: 0 40px 0 48px;
+}
+
+.video-cover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1363px;
+    height: 700px;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-cover img {
+    width: 100%;
+}
+
+.video-duration-watched, .video-duration-full-time {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--white);
+    position: absolute;
+    bottom: 108px;
+}
+
+
+.video-duration-watched {
+    left: 33px;
+}
+
+.video-duration-full-time {
+    right: 28px;
+}
+
+.video-progress-bar {
+    width: 100%;
+    height: 10px;
+    border: none;
+    position: absolute;
+    left: 33px;
+    bottom: 78px;
+    padding-right: 66px;
+    border-radius: 5px;
+}
+
+.video-progress-bar::-webkit-progress-bar {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.video-progress-bar::-webkit-progress-value {
+    background-color: var(--red);
+    border-radius: 5px;
+}
+
+.video-progress-bar::-moz-progress-bar {
+    background-color: var(--red);
+    border-radius: 5px;
+}
+
+.video-player-inner button, .video-player-inner input {
+    position: absolute;
+}
+
+.play-video-button {
+    background: url("../assets/svg_icons/play-video.svg") no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 24px;
+    left: 43px;
+    bottom: 33px;
+}
+
+.next-video-button {
+    background: url("../assets/svg_icons/next-video.svg") no-repeat;
+    background-size: cover;
+    width: 27px;
+    height: 18px;
+    left: 105px;
+    bottom: 34px;
+}
+
+.volume-button {
+    background: url("../assets/svg_icons/volume.svg") no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    left: 172px;
+    bottom: 33px;
+}
+
+.volume-slider {
+    width: 86px;
+    height: 8px;
+    -webkit-appearance: none;
+    position: absolute;
+    bottom: 41px;
+    left: 216px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+    visibility: visible;
+}
+
+.video-subtitles-button {
+    background: url("../assets/svg_icons/subtitles.svg") no-repeat;
+    background-size: cover;
+    width: 27px;
+    height: 18px;
+    right: 208px;
+    bottom: 36px;
+}
+
+.video-settings-button {
+    background: url("../assets/svg_icons/video-settings.svg") no-repeat;
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+    right: 154px;
+    bottom: 32px;
+}
+
+.wide-screen-button {
+    background: url("../assets/svg_icons/wide-screen.svg") no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 21px;
+    right: 99px;
+    bottom: 35px;
+}
+
+.full-screen-button {
+    background: url("../assets/svg_icons/full-screen.svg") no-repeat;
+    background-size: cover;
+    width: 33px;
+    height: 24px;
+    right: 43px;
+    bottom: 33px;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    opacity: 0;
+}
+
+.player-video-name {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.video-action-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.views-number {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 388px;
+}
+
+.action-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-button, .dislike-button, .share-button {
+    font-size: 16px;
+    font-weight: 400;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--light-grey);
+}
+
+.like-button, .dislike-button {
+    margin-right: 10px;
+}
+
+.like-button img, .dislike-button img, .share-button img {
+    margin-right: 8px;
+}
+
+.more-button {
+    margin-left: 40px;
+}
+
+.video-channel-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.video-related {
+    display: flex;
+}
+
+.video-related .round-photo {
+    overflow: inherit;
+}
+
+.video-related .channel-photo {
+    width: 80px;
+    height: 80px;
+    margin-right: 12px;
+}
+
+.channel-name {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.published-date {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.video-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0;
+    max-width: 820px;
+}
+
+.more-video-related {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.play-next-carousel {
+    width: 367px;
+}
+
+.next-video-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 26px;
+}
+
+.next-video-section-header h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.toggle-autoplay {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-autoplay p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 11px;
+}
+
+.toggle-autoplay label {
+    width: 44px;
+    height: 28px;
+    position: relative;
+    display: block;
+    background: var(--light-grey);
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.toggle-autoplay label:after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #2196F3;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.next-video:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.next-video-cover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 213px;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.next-video-cover img {
+    width: 100%;
+}
+
+.next-video-name {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 13px 0 11px 0;
+}
+
+.next-video-views, .next-video-author {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--grey);
+}

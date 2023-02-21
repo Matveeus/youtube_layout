@@ -1,9 +1,3 @@
-@media (max-width: 1450px) {
-    .carousel-buttons {
-        margin-right: unset;
-    }
-}
-
 @media (max-width: 1064px) {
     .carousel-buttons, .channel-carousel-buttons {
         margin-right: unset;
@@ -45,13 +39,6 @@
 }
 
 @media (max-width: 500px) {
-    body {
-        margin-top: 60px;
-    }
-
-    .carousel-inner {
-        flex-direction: column;
-    }
 
     .suggested-account-carousel, .recommended-channel-carousel {
         height: 39%;
@@ -61,21 +48,8 @@
         height: 20%;
     }
 
-    .carousel-buttons {
-        display: none;
-    }
-
     .carousel-inner {
         position: inherit;
-    }
-
-    .video:not(:last-child) {
-        margin-right: 0;
-        margin-bottom: 30px;
-    }
-
-    .suggested-video, .recommended-video, .recommended-channel-video {
-        width: 100%;
     }
 
     .suggested-video-cover, .recommended-video-cover, .recommended-channel-video-cover {
